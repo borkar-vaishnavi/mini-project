@@ -1,0 +1,22 @@
+.middle video{
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 90vh;
+    background-size: cover;  
+    background-position: center;
+    position: absolute;
+}
+.middle video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspext-ratio: 16/9){
+    .middle video{
+        width: auto;
+        height: 100%;
+    }
+}
